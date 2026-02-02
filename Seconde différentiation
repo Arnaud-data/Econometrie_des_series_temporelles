@@ -1,0 +1,13 @@
+>d2cac <- na.omit(diff(diff(cac40))
+>plot(d2cac)
+>lines(SMA(d2cac, n = 20), col = ”red”)
+                  
+>adf.test(d2cac)
+                  
+Augmented Dickey-Fuller Test
+data : d2cac
+Dickey-Fuller =-17.263, Lag order = 11, p-value = 0.01
+alternative hypothesis : stationary
+
+>acf(na.omit(d2cac), main = ”Fonction d’autocorrélation partielle”)
+>pacf(na.omit(cd2cac), main = ”Fonction d’autocorrélation partielle”)
