@@ -1,0 +1,7 @@
+library(”quantmod”)
+getSymbols(”ˆFCHI”, src = ”yahoo”)
+[1] ”FCHI”
+
+cac40 <- Cl(FCHI)[”2020-01-01/”]
+plot(cac40)
+lines(SMA(cac40, n = 20), col = ”red”)
