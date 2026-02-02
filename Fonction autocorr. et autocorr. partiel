@@ -1,0 +1,2 @@
+>acf(na.omit(cac diff), main = ”Fonction d’autocorrélation”)
+>pacf(na.omit(cac diff), main = ”Fonction d’autocorr´elation partielle”)
