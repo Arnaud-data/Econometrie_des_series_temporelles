@@ -1,0 +1,4 @@
+>install.packages(”forecast”)
+>library(forecast)
+>modele <- Arima(d2cac, order = c(6,2,1))
+>summary(modele)
