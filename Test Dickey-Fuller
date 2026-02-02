@@ -1,4 +1,4 @@
-adf.test(na.omit(cac diff))
+>adf.test(na.omit(cac diff))
 
 Augmented Dickey-Fuller Test
 data : na.omit(cac diff)
