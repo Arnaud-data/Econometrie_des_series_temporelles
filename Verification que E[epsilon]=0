@@ -1,0 +1,3 @@
+>tsdisplay(residuals(modele))
+>mean(residuals(modele))
+[1] 0.0771026
